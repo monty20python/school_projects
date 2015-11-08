@@ -1,10 +1,5 @@
 /*
-    File: prog5_dkb71.cpp
-
-    Author(s): David Bendel
-    C.S.1428.253
-    Program: #5
-    04/12/13
+    Prog5
 
     This program reads an unknown number of records from an input file.
     Each record contains a student ID# (string), the student's semester
@@ -227,12 +222,12 @@ int main ()
      Constants: none
      Returns: none
 */
-
+// Redacted Personal Info
 void printIdInfo ( ostream &out )
 {
-     out << "David Bendel" << endl
-         << "C.S.1428.253" << endl
-         << "04/12/13" << endl;
+     out << "" << endl
+         << "" << endl
+         << "" << endl;
 }
 
 /*

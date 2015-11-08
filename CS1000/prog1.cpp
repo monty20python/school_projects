@@ -1,10 +1,10 @@
 /*
-   File: prog1_dkb71.cpp
 
-   Author: David Bendel
-   C.S.1428.253
+
+   Author: monty20python
+   C.S.1000
    Program: #1
-   Due Date: 02/08/13
+   Due Date: 
 
    Prix fixe (pronounced "prefix") menus are common in Europe. A prix fixe
    menu typically includes a number of pre-determined items presented as a
@@ -110,10 +110,6 @@ int main()
     total_with_tax = subtotal + tax_owed;
     tip_total_tax = total_with_tax * TIP_PERCENTAGE;
     amount_owed = total_with_tax + tip_total_tax;
-
-    cout << "David Bendel \n"
-         << "C.S. 1428.253 \n"
-         << "02/08/13 \n\n";
 
     cout << fixed << setprecision(2);
 

@@ -1,9 +1,9 @@
 /*
-    File: prog3_dkb71.cpp
-    Author: David Bendel
-    C.S.1428.253
+   
+    Author: monty20python
+    C.S.1000
     Program: #3
-    Due Date: 03/08/13
+   
 
     A retail company must file a monthly sales tax report listing the sales
     for the month and the amount of sales tax collected. This program reads
@@ -158,10 +158,6 @@ int main ()
          << "State Sales Tax:         " << setw(8) << state_taxes << endl
          << "Total Sales Tax:         " << setw(8) << total_taxes << endl
          << "-----------------------------------" << endl;
-
-	cout << "David Bendel" << endl
-         << "C.S.1428.253" << endl
-         << "03/08/13" << endl << endl << endl
 
          << "The " << month << " tax report has been saved to prog3_out.txt." << endl;
 

@@ -1,10 +1,10 @@
 /*
-    File: prog4_dkb71.cpp
 
-    Author: David Bendel
-    C.S.1428.253
+
+    Author: monty20python
+
     Program: #4
-    Due Date: 03/29/13
+
 
    A bank charges $10.00 a month plus the following check fees for a commercial
    checking account.
@@ -242,14 +242,6 @@ int main()
 
 		return 1;
     }
-
-    cout << "David Bendel" << endl
-         << "C.S.1428.253" << endl
-         << "03/29/13" << endl << endl;
-
-    fout << "David Bendel" << endl
-         << "C.S.1428.253" << endl
-         << "03/29/13" << endl << endl << endl;
 
     cout << "Enter the following information about your checking account." << endl
          << endl

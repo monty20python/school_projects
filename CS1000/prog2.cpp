@@ -1,10 +1,9 @@
 /*
    File: prog2_dkb71.cpp
 
-   Author: David Bendel
-   C.S.1428.253
+   Author: monty20python 
    Program: #2
-   Due Date: 02/22/13
+   
 
    The Dimmitt Company manufactures doodles which are then shipped to
    customers. Four sizes of shipping boxes are used: Huge, Large, Medium,
@@ -125,9 +124,9 @@ int main ()
     cin >> doodles_ordered;
     cout << endl << endl;
 
-    cout << "David Bendel" << endl
-         << "C.S.1428.253" << endl
-         << "02/22/13" << endl << endl;
+    cout << "monty20python" << endl
+         << "C.S.1000" << endl
+         << "Date" << endl << endl;
 
     huge_box = doodles_ordered / HUGE;
     doodles_left = doodles_ordered % HUGE;

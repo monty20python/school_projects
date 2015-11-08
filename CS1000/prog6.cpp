@@ -1,7 +1,5 @@
 /*
-    File: prog6_zdh4_dkb71_v_n13_d_s121.cpp
-
-    Author: Zaneta Hearst, David Bendel, Venancio Nunez, Daniel Slaughter
+    Author: monty20python and 3 others [redacted personal info]
     C.S.1428.253
     Program: #6
     Due Date: 04/26/13
@@ -197,13 +195,13 @@ int main()
    readData ( fin, student_ids, averages );
    calcSemesterAvg ( averages, DAILY_ASG_PERCENTAGE, EXAM_AVG_PERCENTAGE );
    determineLtrGrd ( averages, ltr_grds, GRD_A, GRD_B, GRD_C, GRD_D );
-   printIdInfo ( fout, "Zaneta Hearst, David Bendel, Venancio Nunez, Daniel Slaughter",
-		         253, "04/26/13" );
+   printIdInfo ( fout, "",
+		         253, "" );
    printGradeReportHeadings ( fout );
    places = getPrecision ( );
    printGradeReport ( fout, places, student_ids, averages, ltr_grds );
-   printIdInfo ( cout, "Zaneta Hearst, David Bendel, Venancio Nunez, Daniel Slaughter",
-		         253, "04/26/13");
+   printIdInfo ( cout, "",
+		         253, "");
    printOutputFileNotice ( );
 
     fin.close();
@@ -214,13 +212,7 @@ int main()
 
 /*
     Function: readData
-
-    Authors: William Whatley, Joseph Lavizzo, Sierra Tyler, John Hood
-    C.S.1428.253
-    Program 6 Function
-    04/19/13
-    As edited by: Zaneta Hearst, David Bendel, Venancio Nunez, Daniel Slaughter
-
+    [Redacted personal info]
     Description: The void function readData reads the input data from the file
                  "prog6_253inp.txt" into two parallel arrays, one that holds the
                  student IDs and one that holds both the daily and exam averages.
@@ -242,11 +234,11 @@ void readData( ifstream &fin, string student_ids[], double averages[][AVGS] )
 /*
     Function: calcSemesterAvg
 
-    Author(s): John Walker, Jose Medina, Timothy Hoff, Rishabh Dewan
-    C.S.1428.253
-    Program 6 Function
+   
+  
+ 
     04/19/13
-    As edited by: Zaneta Hearst, David Bendel, Venancio Nunez, Daniel Slaughter
+
 
     Description: The void function calcSemesterAverage takes the daily average
                  and exam average and calculates semester averages. It then stores the
@@ -272,10 +264,10 @@ void calcSemesterAvg( double averages[][AVGS], const double DAILY_ASG_PERCENTAGE
 /*
     Function: determineLtrGrd
 
-    Authors: Zaneta Hearst, David Bendel, Venancio Nunez, Daniel Slaughter
-    C.S.1428.253
+
+
     Program 6 Function
-    04/19/13
+
 
     Description: The void function determineLtrGrd determines the letter grades that will
                  be assigned for the semester; storing the results in the character array
@@ -325,11 +317,11 @@ void determineLtrGrd ( const double averages[STUDENTS][AVGS], char ltr_grd[STUDE
 /*
       Function: printGradeReportHeadings
 
-      Author(s): Nadia Malik, Matthew Zuniga, Jason Villegas, Kaylie Orebough
-      CS.1428.253
+
+
       Program 6 getPrecision
-      04/19/13
-      As edited by: Zaneta Hearst, David Bendel, Venancio Nunez, Daniel Slaughter
+
+
 
       Description: The void function printGradeReportHeadings prints a title and column
                    headers for a semester grade report to the output file as shown below:
@@ -357,11 +349,11 @@ void printGradeReportHeadings( ofstream &fout )
 /*
     Function: getPrecision
 
-    Author(s): James Rafferty, Charles Flori, Oscar Alcanatara, Zachary Coleman
-    CS.1428.253
+
+
     Program 6 Function
-    04/19/13
-    As edited by: Zaneta Hearst, David Bendel, Venancio Nunez, Daniel Slaughter
+
+
 
     Description: The typed function, getPrecision, prompts the user to enter the number of
                  decimal points to display when showing the student grade report.
@@ -388,11 +380,11 @@ int getPrecision ()
 /*
     Function: printGradeReport
 
-    Authors: Cory Cox, Dustin Hanks, Jaime Sandoval, Hammer Gibbens
-    C.S.1428.253
+
+
     Program 6 Function
-    04/19/13
-    As edited by: Zaneta Hearst, David Bendel, Venancio Nunez, Daniel Slaughter
+
+
 
     Description: The void function printGradeReport prints Id's, semester averages, and
                  assigned letter grades under the appropriate column headers. The
@@ -426,11 +418,11 @@ void printGradeReport( ofstream &fout, int places, const string student_ids[],
 
     Function: printIdInfo
 
-    Author(s): Dolores Enrique, Crystal Taylor, Billy Moody, & Lewis Stennis
-    C.S. 1428.253
+
+
     Program 6 Function
-    04/19/13
-    As edited by: Zaneta Hearst, David Bendel, Venancio Nunez, Daniel Slaughter
+
+
 
     Description: The void function, printIdInfo, prints the author(s) identifying
                  information (on separate lines) as shown below. The output is directed
@@ -458,11 +450,11 @@ void printIdInfo ( ostream &out, string authors_name, int sec_num, string date )
 /*
     Function: printOutputFileNotice
 
-    Authors: Kristen Kramer, Abigail Doucette, Bryan Zamora, Joseph Yates
-    C.S.1428.253
+
+
     Program 6 Function
-    04/19/13
-    As edited by: Zaneta Hearst, David Bendel, Venancio Nunez, Daniel Slaughter
+
+
 
     Description: The void function printOutputFileNotice writes to the console one blank
                  line followed by a notice to users that the student information has

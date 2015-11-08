@@ -1,7 +1,5 @@
 /*
-   Author: David Bendel
-   C.S. 1428.253
-   Due Date: 02/13/13
+    [Personal Info Redacted]
 
  */
 
