@@ -1,8 +1,5 @@
 /***************
 Name: David Bendel
-Course: CSCE 3110.002
-Assignment: Program 7
-Due Date: May 8, 2015 11:55pm
 ****************/
 
 #include <iostream>
